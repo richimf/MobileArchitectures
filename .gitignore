@@ -1,0 +1,152 @@
+# ========================================
+# 📱 iOS Specific
+# ========================================
+
+# Xcode
+*.xcworkspace
+*.xcuserstate
+*.xcodeproj/project.xcworkspace
+*.xcodeproj/xcuserdata
+*.xcuserdatad
+
+# Build artifacts
+build/
+DerivedData/
+*.ipa
+*.app
+
+# Swift Package Manager
+Packages/
+Package.pins
+Package.resolved
+.swiftpm/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Archives
+*.xcarchive
+
+# Provisioning profiles
+*.mobileprovision
+*.xcuserstate
+
+# iOS specific logs
+*.log
+
+# ========================================
+# 🤖 Android Specific
+# ========================================
+
+# Gradle
+.gradle/
+build/
+*/build/
+!**/src/**/build/
+
+# Local configuration
+local.properties
+
+# Signing keys
+*.jks
+*.keystore
+
+# Log files
+*.log
+
+# IntelliJ/Android Studio
+.idea/
+*.iml
+
+# NDK
+obj/
+
+# Other
+*.apk
+*.ap_
+captures/
+output.json
+
+# ========================================
+# 🐦 Flutter Specific
+# ========================================
+
+# Flutter
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+.dart_tool/
+.flutter-*
+
+# Flutter build output
+build/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/ServiceDefinitions.json
+
+# Generated files
+*.dart_tool/
+generated_plugin_registrant.dart
+
+# Dart Analysis
+.analysis_options
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# ========================================
+# 🌐 Common Files
+# ========================================
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+
+# IDE Configurations
+*.swp
+*.swo
+*.idea/
+*.vscode/
+
+# Log files
+*.log
+
+# Environment files
+.env
+*.env
+
+# Compiled object files
+*.o
+*.obj
+
+# Archive files
+*.zip
+*.tar.gz
+*.rar
+
+# Executable files
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Node modules (if used)
+node_modules/
+
+# Python cache (if used)
+__pycache__/
+*.pyc
